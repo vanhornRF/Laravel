@@ -14,6 +14,17 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 
 Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
 
+## Installation
+Set up local or web server(I used Homestead to develop this locally)
+Set up database
+Git clone https://github.com/vanhornRF/Laravel.git
+cd to Laravel folder
+run "composer install"
+Change database settings in .env file
+run "php artisan migrate:refresh --seed"
+
+The application should be running!
+
 ## Contributing
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
